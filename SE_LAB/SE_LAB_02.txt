@@ -1,0 +1,148 @@
+# Pharmacy Expiry & Re-order Engine
+
+## Project Overview
+
+The **Pharmacy Expiry & Re-order Engine (PEROE)** is a software system designed to help pharmacies manage medicine inventory, track expiry dates, follow the First-Expired-First-Out (FEFO) method, monitor stock levels, and manage medicine re-orders.
+
+This project is implemented using **Jira** to demonstrate Agile and Scrum project management practices.
+
+---
+
+## Project Objectives
+
+- Manage medicine inventory efficiently.
+- Track medicine batches and stock quantities.
+- Monitor medicine expiry dates.
+- Support First-Expired-First-Out (FEFO) dispensing.
+- Monitor stock levels against safety thresholds.
+- Generate purchase orders when stock is low.
+- Dispatch purchase orders to suppliers.
+- Track the status of re-orders.
+- Demonstrate Scrum activities using Jira.
+
+---
+
+## Epics
+
+### Epic 1: Medicine Inventory Management
+
+**Description:**  
+Manage medicine stock, batches, quantities, and inventory information in the pharmacy.
+
+### Epic 2: Expiry & FEFO Management
+
+**Description:**  
+Track medicine batch expiry dates and ensure medicines are dispensed using First-Expired-First-Out (FEFO).
+
+### Epic 3: Automated Re-order Management
+
+**Description:**  
+Monitor medicine stock levels and automatically generate purchase orders when stock falls below the safety threshold.
+
+### Epic 4: Supplier & Dispatch Management
+
+**Description:**  
+Send purchase order requests to the inventory supplier and track replenishment orders.
+
+---
+
+## User Stories
+
+| User Story | As a | I want to | So that |
+|---|---|---|---|
+| Medicine Stock Tracking | Pharmacy Clerk | View medicine stock levels | I can monitor available inventory |
+| Medicine Batch Management | Pharmacy Clerk | Manage medicine batches and quantities | Inventory records remain accurate |
+| Medicine Expiry Tracking | Pharmacy Clerk | Track medicine batch expiry dates | I can identify batches approaching expiry |
+| FEFO Dispensing | Pharmacy Clerk | Prioritize medicines with the nearest valid expiry date | Medicines are dispensed using FEFO |
+| Stock Threshold Monitoring | Pharmacy Clerk | Monitor medicine stock against the safety threshold | Low-stock medicines can be identified |
+| Automatic Purchase Order Generation | Pharmacy Clerk | Automatically generate a purchase order when stock is below the threshold | Medicines can be reordered on time |
+| Supplier Purchase Order Dispatch | Inventory Supplier | Receive purchase order requests | I can process medicine replenishment |
+| Re-order Status Tracking | Pharmacy Clerk | Track supplier order status | I know when medicine replenishment is expected |
+
+---
+
+## Jira Work Items
+
+The project contains the following work items:
+
+- PEROE-1 – Medicine Inventory Management
+- PEROE-2 – Expiry & FEFO Management
+- PEROE-3 – Automated Re-order Management
+- PEROE-4 – Supplier & Dispatch Management
+- PEROE-5 – Medicine Stock Tracking
+- PEROE-6 – Medicine Batch Management
+- PEROE-7 – Medicine Expiry Tracking
+- PEROE-8 – FEFO Dispensing
+- PEROE-9 – Stock Threshold Monitoring
+- PEROE-10 – Automatic Purchase Order Generation
+- PEROE-11 – Supplier Purchase Order Dispatch
+- PEROE-12 – Re-order Status Tracking
+
+---
+
+## Agile / Scrum Activities
+
+The project demonstrates the following Agile activities in Jira:
+
+1. Create Stories in Jira
+2. Assign Story Points
+3. Planning Poker
+4. Team Discussion
+5. Prioritize and Rank Backlog
+6. Create Sprint
+7. Move Stories through workflow
+8. Add Comments
+9. Complete Sprint
+10. Generate Burndown Chart
+11. Group Reflection
+
+---
+
+## Story Points
+
+Story points are assigned to user stories to estimate their relative complexity and effort.
+
+The project uses the following story-point values:
+
+- **3 points** – Small complexity
+- **5 points** – Medium complexity
+- **8 points** – Higher complexity
+
+Story points were assigned through team discussion and Planning Poker.
+
+---
+
+## Sprint Planning
+
+### Sprint 1
+
+Sprint 1 contains selected high-priority stories related to:
+
+- FEFO Dispensing
+- Automatic Purchase Order Generation
+- Medicine Batch Management
+- Stock Threshold Monitoring
+
+### Sprint 2
+
+Sprint 2 contains:
+
+- Supplier Purchase Order Dispatch
+- Medicine Stock Tracking
+- Medicine Expiry Tracking
+- Re-order Status Tracking
+
+---
+
+## Jira Workflow
+
+The user stories are moved through the following workflow:
+
+```text
+TO DO
+  ↓
+IN PROGRESS
+  ↓
+IN REVIEW
+  ↓
+DONE
