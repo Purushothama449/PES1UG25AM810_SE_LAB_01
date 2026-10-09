@@ -41,18 +41,7 @@ class GameEngine:
         self.generate_new_card()
 
     def generate_new_card(self):
-        self.operator = random.choice(["+", "-", "*", "/"])
-
-        if self.operator == "/":
-            self.num_b = random.randint(2, 12)
-            answer = random.randint(2, 12)
-            self.num_a = self.num_b * answer
-        else:
-            self.num_a = random.randint(3, 15)
-            self.num_b = random.randint(2, 12)
-
-            if self.operator == "-" and self.num_a < self.num_b:
-                self.num_a, self.num_b = self.num_b, self.num_a
+       
 
         self.input_box.clear()
         self.time_remaining = self.time_limit
