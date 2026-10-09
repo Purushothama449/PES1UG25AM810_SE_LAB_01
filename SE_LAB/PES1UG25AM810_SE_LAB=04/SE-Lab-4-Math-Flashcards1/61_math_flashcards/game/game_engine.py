@@ -27,9 +27,7 @@ class GameEngine:
         self.num_b = 0
         self.operator = "+"
 
-        box_w, box_h = 130, 44
-        self.input_box = TextBox(width // 2 - 110, 230, box_w, box_h)
-        self.submit_btn = pygame.Rect(width // 2 + 30, 230, 90, box_h)
+      
 
         self.font_title = pygame.font.SysFont(None, 38)
         self.font_hud = pygame.font.SysFont(None, 26)
